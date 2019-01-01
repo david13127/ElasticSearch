@@ -1,0 +1,2 @@
+@echo
+grunt server

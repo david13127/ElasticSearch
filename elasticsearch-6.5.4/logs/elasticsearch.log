@@ -1,0 +1,108 @@
+[2019-01-01T12:01:50,496][INFO ][o.e.e.NodeEnvironment    ] [Vm4dyWh] using [1] data paths, mounts [[/home (/dev/sdb9)]], net usable_space [64.9gb], net total_space [74.6gb], types [ext4]
+[2019-01-01T12:01:50,499][INFO ][o.e.e.NodeEnvironment    ] [Vm4dyWh] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-01-01T12:01:50,500][INFO ][o.e.n.Node               ] [Vm4dyWh] node name derived from node ID [Vm4dyWhjR6qvRuD-UIGabw]; set [node.name] to override
+[2019-01-01T12:01:50,500][INFO ][o.e.n.Node               ] [Vm4dyWh] version[6.5.4], pid[8915], build[default/tar/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Linux/4.15.0-43-lowlatency/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-01T12:01:50,500][INFO ][o.e.n.Node               ] [Vm4dyWh] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.jNvWfjPH, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/david/ElasticSearch/elasticsearch-6.5.4, -Des.path.conf=/home/david/ElasticSearch/elasticsearch-6.5.4/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [aggs-matrix-stats]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [analysis-common]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [ingest-common]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-expression]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-mustache]
+[2019-01-01T12:01:51,729][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-painless]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [mapper-extras]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [parent-join]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [percolator]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [rank-eval]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [reindex]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [repository-url]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [transport-netty4]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [tribe]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-ccr]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-core]
+[2019-01-01T12:01:51,730][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-deprecation]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-graph]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-logstash]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-ml]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-monitoring]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-rollup]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-security]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-sql]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-upgrade]
+[2019-01-01T12:01:51,731][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-watcher]
+[2019-01-01T12:01:51,732][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] no plugins loaded
+[2019-01-01T12:01:54,542][INFO ][o.e.x.s.a.s.FileRolesStore] [Vm4dyWh] parsed [0] roles from file [/home/david/ElasticSearch/elasticsearch-6.5.4/config/roles.yml]
+[2019-01-01T12:01:54,878][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [Vm4dyWh] [controller/8994] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-01-01T12:01:55,253][DEBUG][o.e.a.ActionModule       ] [Vm4dyWh] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-01-01T12:01:55,449][INFO ][o.e.d.DiscoveryModule    ] [Vm4dyWh] using discovery type [zen] and host providers [settings]
+[2019-01-01T12:01:56,046][INFO ][o.e.n.Node               ] [Vm4dyWh] initialized
+[2019-01-01T12:01:56,046][INFO ][o.e.n.Node               ] [Vm4dyWh] starting ...
+[2019-01-01T12:01:56,166][INFO ][o.e.t.TransportService   ] [Vm4dyWh] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-01T12:01:56,181][WARN ][o.e.b.BootstrapChecks    ] [Vm4dyWh] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-01-01T12:01:59,222][INFO ][o.e.c.s.MasterService    ] [Vm4dyWh] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{c4Km1XxcRY2F5Ylfo592AQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-01-01T12:01:59,226][INFO ][o.e.c.s.ClusterApplierService] [Vm4dyWh] new_master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{c4Km1XxcRY2F5Ylfo592AQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{c4Km1XxcRY2F5Ylfo592AQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-01T12:01:59,275][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [Vm4dyWh] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-01T12:01:59,275][INFO ][o.e.n.Node               ] [Vm4dyWh] started
+[2019-01-01T12:01:59,335][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [Vm4dyWh] Failed to clear cache for realms [[]]
+[2019-01-01T12:01:59,392][INFO ][o.e.g.GatewayService     ] [Vm4dyWh] recovered [0] indices into cluster_state
+[2019-01-01T12:01:59,495][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.watches] for index patterns [.watches*]
+[2019-01-01T12:01:59,551][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2019-01-01T12:01:59,624][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.watch-history-9] for index patterns [.watcher-history-9*]
+[2019-01-01T12:01:59,690][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2019-01-01T12:01:59,760][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2019-01-01T12:01:59,829][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2019-01-01T12:01:59,896][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2019-01-01T12:01:59,955][INFO ][o.e.c.m.MetaDataIndexTemplateService] [Vm4dyWh] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2019-01-01T12:02:00,133][INFO ][o.e.l.LicenseService     ] [Vm4dyWh] license [a8ab4c30-984d-49b8-815a-bffcff6c2f2a] mode [basic] - valid
+[2019-01-01T12:02:12,477][INFO ][o.e.x.m.j.p.NativeController] [Vm4dyWh] Native controller process has stopped - no new native processes can be started
+[2019-01-01T12:02:12,478][INFO ][o.e.n.Node               ] [Vm4dyWh] stopping ...
+[2019-01-01T12:02:12,503][INFO ][o.e.x.w.WatcherService   ] [Vm4dyWh] stopping watch service, reason [shutdown initiated]
+[2019-01-01T12:02:12,866][INFO ][o.e.n.Node               ] [Vm4dyWh] stopped
+[2019-01-01T12:02:12,866][INFO ][o.e.n.Node               ] [Vm4dyWh] closing ...
+[2019-01-01T12:02:12,886][INFO ][o.e.n.Node               ] [Vm4dyWh] closed
+[2019-01-01T12:06:38,009][INFO ][o.e.e.NodeEnvironment    ] [Vm4dyWh] using [1] data paths, mounts [[/home (/dev/sdb9)]], net usable_space [64.9gb], net total_space [74.6gb], types [ext4]
+[2019-01-01T12:06:38,011][INFO ][o.e.e.NodeEnvironment    ] [Vm4dyWh] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-01-01T12:06:38,012][INFO ][o.e.n.Node               ] [Vm4dyWh] node name derived from node ID [Vm4dyWhjR6qvRuD-UIGabw]; set [node.name] to override
+[2019-01-01T12:06:38,013][INFO ][o.e.n.Node               ] [Vm4dyWh] version[6.5.4], pid[9243], build[default/tar/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Linux/4.15.0-43-lowlatency/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-01T12:06:38,013][INFO ][o.e.n.Node               ] [Vm4dyWh] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.PGeVLuzZ, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/david/ElasticSearch/elasticsearch-6.5.4, -Des.path.conf=/home/david/ElasticSearch/elasticsearch-6.5.4/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [aggs-matrix-stats]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [analysis-common]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [ingest-common]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-expression]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-mustache]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [lang-painless]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [mapper-extras]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [parent-join]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [percolator]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [rank-eval]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [reindex]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [repository-url]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [transport-netty4]
+[2019-01-01T12:06:39,428][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [tribe]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-ccr]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-core]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-deprecation]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-graph]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-logstash]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-ml]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-monitoring]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-rollup]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-security]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-sql]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-upgrade]
+[2019-01-01T12:06:39,429][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] loaded module [x-pack-watcher]
+[2019-01-01T12:06:39,430][INFO ][o.e.p.PluginsService     ] [Vm4dyWh] no plugins loaded
+[2019-01-01T12:06:42,537][INFO ][o.e.x.s.a.s.FileRolesStore] [Vm4dyWh] parsed [0] roles from file [/home/david/ElasticSearch/elasticsearch-6.5.4/config/roles.yml]
+[2019-01-01T12:06:42,876][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [Vm4dyWh] [controller/9268] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-01-01T12:06:43,187][DEBUG][o.e.a.ActionModule       ] [Vm4dyWh] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-01-01T12:06:43,408][INFO ][o.e.d.DiscoveryModule    ] [Vm4dyWh] using discovery type [zen] and host providers [settings]
+[2019-01-01T12:06:44,148][INFO ][o.e.n.Node               ] [Vm4dyWh] initialized
+[2019-01-01T12:06:44,149][INFO ][o.e.n.Node               ] [Vm4dyWh] starting ...
+[2019-01-01T12:06:44,295][INFO ][o.e.t.TransportService   ] [Vm4dyWh] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-01T12:06:44,342][WARN ][o.e.b.BootstrapChecks    ] [Vm4dyWh] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-01-01T12:06:47,412][INFO ][o.e.c.s.MasterService    ] [Vm4dyWh] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{FMXrsAfATceoufmKJ49OpA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-01-01T12:06:47,418][INFO ][o.e.c.s.ClusterApplierService] [Vm4dyWh] new_master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{FMXrsAfATceoufmKJ49OpA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {Vm4dyWh}{Vm4dyWhjR6qvRuD-UIGabw}{FMXrsAfATceoufmKJ49OpA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8248070144, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-01T12:06:47,467][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [Vm4dyWh] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-01T12:06:47,468][INFO ][o.e.n.Node               ] [Vm4dyWh] started
+[2019-01-01T12:06:47,772][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [Vm4dyWh] Failed to clear cache for realms [[]]
+[2019-01-01T12:06:47,848][INFO ][o.e.l.LicenseService     ] [Vm4dyWh] license [a8ab4c30-984d-49b8-815a-bffcff6c2f2a] mode [basic] - valid
+[2019-01-01T12:06:47,862][INFO ][o.e.g.GatewayService     ] [Vm4dyWh] recovered [0] indices into cluster_state
